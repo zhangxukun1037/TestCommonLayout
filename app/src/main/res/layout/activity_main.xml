@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.android.testcommonlayout.MainActivity">
+
+    <Button
+        android:id="@+id/btn_linear"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="线性布局"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_relative"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="相对布局"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_frame"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="帧布局"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_table"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="表格布局"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_grid"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="网格布局"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="张旭琨"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+</LinearLayout>

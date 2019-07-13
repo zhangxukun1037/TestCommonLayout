@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.android.testcommonlayout.RelativeLayoutActivity">
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="第一个Button" />
+
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/btn_1"
+        android:text="第二个Button" />
+
+    <Button
+        android:id="@+id/btn_3"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_1"
+        android:layout_marginTop="38dp"
+        android:text="第三个Button" />
+
+    <Button
+        android:id="@+id/btn_4"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/btn_3"
+        android:layout_toRightOf="@id/btn_3"
+        android:text="第四个Button" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="返回"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+</RelativeLayout>

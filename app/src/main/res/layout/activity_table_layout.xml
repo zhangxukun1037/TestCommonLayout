@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.testcommonlayout.TableLayoutActivity">
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="返回"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btn_back">
+
+        <TableRow android:layout_marginTop="32dp">
+
+            <Button android:text="第一个Button" />
+
+            <Button android:text="第二个Button" />
+        </TableRow>
+
+        <Button
+            android:layout_marginTop="32dp"
+            android:text="第三个Button" />
+        <TableRow android:layout_marginTop="32dp">
+
+            <Button android:text="第四个Button" />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>
